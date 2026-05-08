@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode color overrides -->
+    <color name="background">#1A1209</color>
+    <color name="background_primary">#1A1209</color>
+    <color name="card_background">#2C1F0E</color>
+    <color name="background_card">#2C1F0E</color>
+
+    <color name="text_primary">#F5E6D3</color>
+    <color name="text_secondary">#B89478</color>
+    <color name="text_hint">#8D6E63</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <color name="white">#2C1F0E</color>
+    <color name="gray_light">#3D2B18</color>
+    <color name="gray_medium">#6D4C41</color>
+</resources>

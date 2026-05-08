@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Halli Santhe Digital</string>
+    <string name="app_tagline">Your Village Market, Now Digital</string>
+    <string name="main_title">Halli-Santhe Digital</string>
+    <string name="search_hint">Search products…</string>
+    <string name="browse_products_title">Browse Products</string>
+    <string name="no_products_message">No products found. Check back soon!</string>
+    <string name="upload_product_button">Upload Product</string>
+    <string name="fab_content_description">Add Product</string>
+
+    <string name="upload_product_title">Upload Product</string>
+    <string name="product_name_hint">Product Name</string>
+    <string name="product_price_hint">Price (₹)</string>
+    <string name="product_category_hint">Category</string>
+    <string name="seller_phone_hint">WhatsApp Number (with country code)</string>
+    <string name="submit_button">Submit Product</string>
+
+    <string name="product_details_title">Product Details</string>
+    <string name="contact_seller_button">Contact on WhatsApp</string>
+    <string name="whatsapp_message_template">Namaskara! 🙏 I saw your \"%1$s\" on Halli-Santhe Digital.\nIs it available? Listed price: %2$s</string>
+
+    <string name="error_required_field">This field is required</string>
+    <string name="error_invalid_phone">Enter a valid phone number (min 10 digits)</string>
+    <string name="error_invalid_price">Enter a valid price greater than 0</string>
+    <string name="upload_success">Product uploaded successfully! 🎉</string>
+    <string name="upload_failed">Failed to upload product. Please try again.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="back_button">Back</string>
+    <string name="permission_storage_denied">Storage permission is required to select images</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="deny_permission">Deny</string>
+    <string name="select_image_first">Please select an image first</string>
+
+    <!-- Feature strings -->
+    <string name="my_listings_title">My Listings</string>
+    <string name="wishlist_title">My Wishlist</string>
+    <string name="added_to_wishlist">Added to wishlist ❤️</string>
+    <string name="removed_from_wishlist">Removed from wishlist</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="available">Available</string>
+    <string name="delete_confirm">Are you sure you want to delete this product?</string>
+    <string name="product_updated">Product updated successfully! ✅</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Auth strings v5 -->
+    <string name="profile_title">My Profile</string>
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="logout_confirm">Are you sure you want to log out?</string>
+    <string name="role_buyer">🛒 Buyer</string>
+    <string name="role_artisan">🧑‍🎨 Artisan / Seller</string>
+    <string name="no_products_empty">No products available yet.</string>
+    <string name="no_search_results">No products found for your search.</string>
+    <string name="seller_only">Only sellers can upload products</string>
+    <string name="invalid_phone">Seller phone number is invalid</string>
+    <string name="change_password">Change Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password_hint">Password (min 8 chars, uppercase + digit)</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_changed">Password changed successfully ✅</string>
+    <string name="password_weak">Password too weak. Use uppercase + digit + symbol.</string>
+    <string name="passwords_no_match">Passwords do not match</string>
+    <string name="chat_hint">Type a message…</string>
+    <string name="chat_with_seller">💬 Chat with Seller</string>
+    <string name="my_chats">My Chats</string>
+    <string name="no_chats_yet">No chats yet. Contact a seller from a product page!</string>
+</resources>

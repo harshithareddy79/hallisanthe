@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_notifications"
+        android:title="🔔"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_cart"
+        android:title="Cart"
+        android:icon="@drawable/ic_cart"
+        app:actionLayout="@layout/view_cart_badge"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_wishlist"
+        android:title="Wishlist"
+        android:icon="@drawable/ic_heart_outline"
+        app:actionLayout="@layout/view_wishlist_badge"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="Sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_wishlist"
+        android:title="❤️ Wishlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_orders"
+        android:title="📦 My Orders"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_my_listings"
+        android:title="🏪 My Listings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="👤 My Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_sample_data"
+        android:title="Add Sample Data"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="🚪 Log Out"
+        app:showAsAction="never" />
+
+</menu>

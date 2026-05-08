@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="primary">#E65100</color>
+    <color name="primary_dark">#BF360C</color>
+    <color name="primary_light">#FF8A65</color>
+
+    <color name="accent">#2E7D32</color>
+    <color name="accent_dark">#1B5E20</color>
+    <color name="accent_light">#66BB6A</color>
+
+    <!-- Backgrounds — warm cream, NOT white-on-white -->
+    <color name="background">#FFF8F0</color>
+    <color name="background_primary">#FFF8F0</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="background_card">#FFFFFF</color>
+
+    <!-- Text — all dark tones on light backgrounds -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#5D4037</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_hint">#8D6E63</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+
+    <color name="gradient_start">#E65100</color>
+    <color name="gradient_end">#BF360C</color>
+
+    <!-- Chips: orange when selected, outlined when not -->
+    <color name="chip_checked">#E65100</color>
+    <color name="chip_unchecked">#FFFFFF</color>
+    <color name="chip_text_checked">#FFFFFF</color>
+    <color name="chip_text_unchecked">#E65100</color>
+
+    <!-- Semantic colors -->
+    <color name="error_red">#C62828</color>
+    <color name="warning_yellow">#F57F17</color>
+    <color name="info_blue">#1565C0</color>
+    <color name="success_green">#2E7D32</color>
+</resources>

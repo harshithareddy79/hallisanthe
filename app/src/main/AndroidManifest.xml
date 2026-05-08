@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HalliSantheDigital"
+        android:usesCleartextTraffic="false"
+        android:name=".HalliSantheApp"
+        tools:targetApi="31">
+
+        <activity android:name=".ui.SplashActivity" android:exported="true"
+            android:theme="@style/SplashTheme" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.OnboardingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:name=".ui.LoginActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.ForgotPasswordActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".MainActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:name=".ui.ArtisanUploadActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.BuyerBrowseActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.ProductDetailActivity" android:exported="false" android:parentActivityName=".ui.BuyerBrowseActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.MyListingsActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.WishlistActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.ArtisanProfileActivity" android:exported="false" android:parentActivityName=".ui.ProductDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.CartActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.ProfileActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.ChangePasswordActivity" android:exported="false" android:parentActivityName=".ui.ProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.ChatActivity" android:exported="false" android:parentActivityName=".ui.ProductDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.ChatListActivity" android:exported="false" android:parentActivityName=".ui.ProfileActivity" android:screenOrientation="portrait" />
+
+        <!-- v7 new activities -->
+        <activity android:name=".ui.OrderHistoryActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.SalesDashboardActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.NotificationCenterActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.SettingsActivity" android:exported="false" android:parentActivityName=".ui.ProfileActivity" android:screenOrientation="portrait" />
+
+
+        <!-- v8 new activities -->
+        <activity android:name=".ui.ReviewsActivity" android:exported="false" android:parentActivityName=".ui.ProductDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.RecentlyViewedActivity" android:exported="false" android:parentActivityName=".MainActivity" android:screenOrientation="portrait" />
+    </application>
+</manifest>
