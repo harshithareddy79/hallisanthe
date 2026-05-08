@@ -4,3 +4,6 @@ build/
 app/build/
 local.properties
 *.iml
+gradle-8.4/
+gradle-8.4-bin.zip
+*.zip
