@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540559649693",
+    "project_id": "halli-fcb30",
+    "storage_bucket": "halli-fcb30.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540559649693:android:f6cfadd38714ad2ee3dd74",
+        "android_client_info": {
+          "package_name": "com.hallisanthi.digital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2xbqzZfhtClv56FgtOsIAUX-935MVl64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
